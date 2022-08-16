@@ -1,0 +1,18 @@
+<%- include('../components/head', {title: 'Services'}) %>
+
+<%- include('../components/header') %>
+
+<main>
+  <section class="d-flex flex-column align-items-center mt-4">
+    <h1>Página Serviços</h1>
+    <p>Conheça nossos serviços.</p>
+  </section>
+  <section class="d-flex justify-content-center" style="flex-wrap: wrap;">
+    <%- include('../components/card', {cardName: 'Teste'}) %>
+    <%- include('../components/card') %>
+    <%- include('../components/card') %>
+    <%- include('../components/card') %>
+  </section>
+</main>
+ 
+<%- include('../components/footer') %>

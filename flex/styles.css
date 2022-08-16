@@ -1,0 +1,27 @@
+.box {
+  display: flex;
+  border: 1px dashed red;
+  /* justify-content: space-around; */
+  /* flex-direction: column; */
+  /* height: 95vh; */
+  /* width: 160px; */
+}
+
+.box div {
+  border: 1px solid;
+  flex: 1;
+}
+
+/* .box div {
+  border: 1px solid;
+  flex-basis: 45px;
+}
+
+.box div:nth-child(2), .box div:nth-child(3) {
+  flex-shrink: 2;
+}  
+*/
+
+/* .box div:nth-child(1){
+  flex-grow: 2;
+} */
